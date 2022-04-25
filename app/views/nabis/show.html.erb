@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @nabi.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @nabi.description %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @nabi.price %>
+</p>
+
+<%= link_to 'Edit', edit_nabi_path(@nabi) %> |
+<%= link_to 'Back', nabis_path %>

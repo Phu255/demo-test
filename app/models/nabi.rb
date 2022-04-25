@@ -1,0 +1,2 @@
+class Nabi < ApplicationRecord
+end
